@@ -1,0 +1,20 @@
+.google-maps {
+    padding-bottom: 25%; 
+    height: 0;
+    overflow: hidden;
+    height: 500px;
+}
+.google-maps {
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+.col-action {
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle !important;
+}

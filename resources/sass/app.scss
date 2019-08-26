@@ -1,0 +1,57 @@
+.img-flag {
+    width: 20px;
+    display: inline-block;
+}
+
+.call-to-action-style-1 {
+    padding: 10px 0;
+}
+
+.home.h3 {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+}
+
+.mB-5 {
+    margin-bottom: 5px;
+}
+
+.mB-10 {
+    margin-bottom: 10px;
+}
+
+.mT-5 {
+    margin-top: 5px;
+}
+
+.mT-10 {
+    margin-top: 10px;
+}
+
+.text-span span {
+    font-family: "Playfair Display", serif;
+}
+
+.team-wrapper {
+    .about-carousel {
+        .carousel-arrow {
+            display: none !important;
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .row {
+        .is-flex {
+            display: flex;
+            flex-wrap: wrap;
+            >[class*='col-'] {
+                display: flex;
+                flex-direction: column;
+            }
+            .icon-box {
+                flex-grow: 1;
+            }
+        }
+    }
+}
